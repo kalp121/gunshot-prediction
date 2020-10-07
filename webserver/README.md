@@ -1,6 +1,6 @@
-##dependencies:
+## dependencies:
 
-######Run below commands in command line(Python)
+###### Run below commands in command line(Python)
 1.pip install Flask
 2.pip install Flask-Login
 3.pip install Flask-SQLAlchemy
@@ -11,11 +11,11 @@
 8.pip install librosa
 9.pip install numpy pandas scipy matplotlib
 
-##Steps to run:
+## Steps to run:
 1. cd into 'webserver/'
 2. run 'python run.py' command in Command line.
 
-##Folder Structure:
+## Folder Structure:
 1. run.py is the main Flask application file. 
 2. webapp/static contais static files like audio,css,Images, JS scripts etc.
 3. webapp/test.db contains information of audios which are stored in webapp/static/audio
