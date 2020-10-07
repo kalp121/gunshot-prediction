@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block content %}
+	
+<div class="container">
+  <div class="row">
+    <div class="col">
+
+      Upload an audio
+      <hr>
+
+      <form action="/upload" method="POST" enctype="multipart/form-data">
+
+        <div class="form-group">
+          <label>Select audio</label>
+          <div class="custom-file">
+            <input oninput="filesize(this);" type="file" class="custom-file-input" name="audio" id="audio">
+            <label class="custom-file-label" for="image">Select Audio...</label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Upload</button>
+
+      </form>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+{% endblock content %}
+
+{% block script %}
+<script>
+
+   function filesize(f){
+   	
+   	//document.cookie= 'filesize=${f.files[0].size}';
+   }
+
+</script>
+
+{% endblock script %}
