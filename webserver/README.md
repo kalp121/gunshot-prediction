@@ -1,15 +1,15 @@
 ## dependencies:
 
 ###### Run below commands in command line(Python)
-1.pip install Flask
-2.pip install Flask-Login
-3.pip install Flask-SQLAlchemy
-4.pip install Flask-Bcrypt
-5.pip install Flask-WTF
-6.pip install WTForms
-7.pip install DateTime
-8.pip install librosa
-9.pip install numpy pandas scipy matplotlib
+1. pip install Flask
+2. pip install Flask-Login
+3. pip install Flask-SQLAlchemy
+4. pip install Flask-Bcrypt
+5. pip install Flask-WTF
+6. pip install WTForms
+7. pip install DateTime
+8. pip install librosa
+9. pip install numpy pandas scipy matplotlib
 
 ## Steps to run:
 1. cd into 'webserver/'
